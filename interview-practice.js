@@ -23,7 +23,11 @@ each(numbers, function(number) {
 // Use reduce to return the sum of numbers
 reduce(numbers, function(sum, number) {
   return sum+number
-  },0);//I am getting undefined, There is no console.log in the reduce function.
+  //console.log(sum,number);
+  //console.log(numbers);
+  //I've tried the above console.log methods, but I am not getting any output, only when I chancge 'reduce' 
+  // on the higherOrderFunction page will it work.
+  },0);//
 
 
 // Use map to convert the array letters to all capital letters
